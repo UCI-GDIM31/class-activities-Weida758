@@ -4,7 +4,11 @@
 I moved the cat to the new platform and got it to move by moving the player script and adding it as a component to the cat object. I attached an animation to the cat so that the cat has animation. I changed the movement speed and turn speed of the cat so that the movements make more sense. 
 
 ### W2
+The r, g, b variables are floats instead of ints, bools, or strings because colors are evaluated with numerical values with decimals. Ints are numerical values but do not include decimals, while bools and strings are not numerical values. 
 
+The _bounce variable is an int instead of other data types because the variable stores the numerical value that corresponds to how much times the ball bounces, which will always be an integer. 
+
+The error message outputted "(file path)(line, column of error) error CS1002: ; expected" which means a semi colon was missing at the following line and column. 
 
 ## Open-Source Assets
 ### W1
