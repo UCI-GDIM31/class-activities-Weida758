@@ -4,7 +4,7 @@
 I moved the cat to the new platform and got it to move by moving the player script and adding it as a component to the cat object. I attached an animation to the cat so that the cat has animation. I changed the movement speed and turn speed of the cat so that the movements make more sense. 
 
 ### W2
-Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
+
 
 ## Open-Source Assets
 ### W1
