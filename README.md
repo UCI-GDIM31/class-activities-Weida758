@@ -10,6 +10,10 @@ The _bounce variable is an int instead of other data types because the variable 
 
 The error message outputted "(file path)(line, column of error) error CS1002: ; expected" which means a semi colon was missing at the following line and column. 
 
+### W3
+Table #17
+For the parameter of the method, we need the type to be a float since the sanity is represented by 0% - 100%, which can be represented by 2 place decimals. The return type would be void since no data is needed to be returned in order to change the light brightness or the character's sanity level. 
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
