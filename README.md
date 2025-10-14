@@ -14,6 +14,8 @@ The error message outputted "(file path)(line, column of error) error CS1002: ; 
 Table #17
 For the parameter of the method, we need the type to be a float since the sanity is represented by 0% - 100%, which can be represented by 2 place decimals. The return type would be void since no data is needed to be returned in order to change the light brightness or the character's sanity level. 
 
+A class can be seen as the earbuds in an airpod. They exists in as themselves, but they also become a component to the charging case of the airpod when attached together. The member variables serve as the internal technical parts that make up the earbud, and the methods determine what happens when you plug the earbud to your ear (auto tries to connect to device with bluetooth activated). 
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
