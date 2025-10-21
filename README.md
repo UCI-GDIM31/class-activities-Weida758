@@ -16,6 +16,15 @@ For the parameter of the method, we need the type to be a float since the sanity
 
 A class can be seen as the earbuds in an airpod. They exists in as themselves, but they also become a component to the charging case of the airpod when attached together. The member variables serve as the internal technical parts that make up the earbud, and the methods determine what happens when you plug the earbud to your ear (auto tries to connect to device with bluetooth activated). 
 
+### W4
+Table #17
+
+Line 17 is defining a bool variable _isGrounded with the value of true. 
+
+Line 28 is detecting if the space key is pressed via the Input.GetKeyDown(KeyCode.Space) and whether _isGrounded is true or not. If both conditions are met, then jumping physic is applied to the player and _isGrounded is set to false. 
+
+Line 32 sets the value of the bool variable _isGrounded to false when the condition in line 28 is met. 
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
