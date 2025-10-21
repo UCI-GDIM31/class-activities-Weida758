@@ -19,11 +19,19 @@ A class can be seen as the earbuds in an airpod. They exists in as themselves, b
 ### W4
 Table #17
 
-Line 17 is defining a bool variable _isGrounded with the value of true. 
+Line 17 is defining a bool member variable _isGrounded with the value of true. 
 
-Line 28 is detecting if the space key is pressed via the Input.GetKeyDown(KeyCode.Space) and whether _isGrounded is true or not. If both conditions are met, then jumping physic is applied to the player and _isGrounded is set to false. 
+Line 28 is detecting if the space key is pressed by calling the Input.GetKeyDown(KeyCode.Space) and whether _isGrounded is true or not. If both conditions are met, then jumping physic is applied to the player and _isGrounded is set to false. 
 
-Line 32 sets the value of the bool variable _isGrounded to false when the condition in line 28 is met. 
+Line 32 sets the value of the bool member variable _isGrounded to false when the condition in line 28 is met. 
+
+What solution did you come up with for the collider activity, and why? Specifically- which objects did you add Rigidbodies to, and which object(s) did you check Is Trigger on?
+
+We decided that the goal needs isTrigger checked, because we don't need the goal to actually simulate physical collisions. We merely need to detect if the soccer ball went inside the area of the goal or not. The cat and soccer ball need the physical colliding interaction so that the cat can actually kick the ball. This is also why we attached rigidbody components to the cat and the ball, it is so that the ball has natural physics when there is collision. 
+
+IF your game did not work perfectly the first time you tested it, talk about what you had to fix.
+
+My game worked perfectly when I tested it. 
 
 ## Open-Source Assets
 ### W1
