@@ -33,6 +33,11 @@ IF your game did not work perfectly the first time you tested it, talk about wha
 
 My game worked perfectly when I tested it. 
 
+### W5
+The answer that I found interesting to the question, is Vector ever an overkill? is that it's basically never an overkill as long as the game as anything to do with checking and dealing with world positions. 
+1. This class needs two member variables, one being a variable that is of the type Transform, and the other being the type NavMeshAgent. 
+2. This class needs two methods, Start() and Update()
+3. The Start() method should store the NavMeshComponent attached to the game object to the member variable that is the type NavMeshComponent using GetComponent<>(). The Update() method should access the SetDestination method from the NavMeshAgent variable and use the target transform's position as the parameter, so that the game object will actually go towards the target. 
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
