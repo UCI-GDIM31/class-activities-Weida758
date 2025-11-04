@@ -41,6 +41,10 @@ The answer that I found interesting to the question, is Vector ever an overkill?
 
 ### W6
 My category assignment was Math in the Google Doc. [Google Doc Link](https://docs.google.com/document/d/1v9abHr0z2I_ynx3ik8Slda9mncvm8eCeKY5KIBUfL-c/edit?usp=sharing)
+
+1. BatW6 needs a float member variable for the speed of the bats and a bool member variable chasing that records whether the bat is in the chasing state or not.  
+2. This class needs a StartChasing method and a StopChasing method.
+3. The StartChasing method takes in a Transform parameter named playerTransform, and uses it to let the bat move towards the player through using transform.position = Vector3.MoveTowards(transform.position, playerTransform.position, speed * Time.deltaTime). The StopChasing method sets chasing to false, which stops the MoveTowards because the MoveTowards script only works under the condition that chasing is true through if statement.
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
