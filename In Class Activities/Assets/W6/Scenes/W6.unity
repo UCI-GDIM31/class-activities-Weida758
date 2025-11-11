@@ -6044,8 +6044,14 @@ MonoBehaviour:
   - {fileID: 1077408847}
   - {fileID: 2130503367}
   - {fileID: 1583297592}
-  _messages: []
-  _newTextTimers: []
+  _messages:
+  - Wow
+  - Lol
+  - Im chasing you
+  _newTextTimers:
+  - 0
+  - 0
+  - 0
 --- !u!4 &925081787
 Transform:
   m_ObjectHideFlags: 0

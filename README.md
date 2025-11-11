@@ -45,6 +45,9 @@ My category assignment was Math in the Google Doc. [Google Doc Link](https://doc
 1. BatW6 needs a float member variable for the speed of the bats and a bool member variable chasing that records whether the bat is in the chasing state or not.  
 2. This class needs a StartChasing method and a StopChasing method.
 3. The StartChasing method takes in a Transform parameter named playerTransform, and uses it to let the bat move towards the player through using transform.position = Vector3.MoveTowards(transform.position, playerTransform.position, speed * Time.deltaTime). The StopChasing method sets chasing to false, which stops the MoveTowards because the MoveTowards script only works under the condition that chasing is true through if statement.
+
+### W7
+Modifying transform.position modifies the worlds space transform while Translate is modifying the local transform.
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
